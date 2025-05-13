@@ -15,8 +15,8 @@ pagination:
 </div>
 
 <div class="wrapper">
-	{% capture md_content %}{% include Chapters/Storyline.markdown.md %}{% endcapture %}
-	{{ md_content | markdownify }}
+	{% include test.md %}
+	{% include Chapters/Storyline.markdown %}
 
 
 <nav class="pagination" role="navigation">

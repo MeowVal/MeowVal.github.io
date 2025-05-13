@@ -2,27 +2,27 @@
 <html>
 
   {% include head.html %}
-	<script>
-		document.addEventListener("DOMContentLoaded", function() {
-			let sidebar = document.querySelector(".sidebar");
-			let offset = sidebar.offsetTop;
 
-			window.addEventListener("scroll", function() {
-				if (window.scrollY > offset) {
-					sidebar.style.position = "fixed";
-					sidebar.style.top = "10px";
-				} else {
-					sidebar.style.position = "absolute";
-					sidebar.style.top = offset + "px";
-				}
-			});
-		});
-	</script>
   <body>
 
     {% include header.html %}
 
+		<script>
+			document.addEventListener("DOMContentLoaded", function() {
+				let sidebar = document.querySelector(".sidebar");
+				let offset = sidebar.offsetTop;
 
+				window.addEventListener("scroll", function() {
+					if (window.scrollY > offset) {
+						sidebar.style.position = "fixed";
+						sidebar.style.top = "10px";
+					} else {
+						sidebar.style.position = "absolute";
+						sidebar.style.top = offset + "px";
+					}
+				});
+			});
+		</script>
 
     <div class="page-content">
         {{ content }}

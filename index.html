@@ -15,8 +15,10 @@ pagination:
 </div>
 
 <div class="wrapper">
-	{% include test.md %}
-	{% include Chapters/Storyline.markdown %}
+	{% for item in site.content %}
+	<h2>{{ item.title }}</h2>
+	{{ item.content | markdownify }}
+	{% endfor %}
 
 
 <nav class="pagination" role="navigation">

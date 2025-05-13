@@ -35,9 +35,9 @@ code {
 }
 
 blockquote {
-	color: $medium-gray;
+	color: $Muted-Vista-Blue;
 	font-style: italic;
-	border-left: 2px solid $light-gray;
+	border-left: 2px solid $Lighter-Vista-Blue;
 	margin-left: 0;
 	padding-left: 3em;
 }
@@ -47,7 +47,7 @@ pre code.hljs {
 }
 
 .page-divider {
-	$divider-color: $light-gray;
+	$divider-color: $Lighter-Vista-Blue;
   display: block;
   width: 50%;
   margin-left: auto;
@@ -68,7 +68,7 @@ pre code.hljs {
     position: relative;
     top: -26px;
     display: block;
-    background: $white;
+    background: $base-background-color;
     width: 16px;
     height: 16px;
     margin-left: auto;
@@ -78,7 +78,7 @@ pre code.hljs {
 }
 
 .tooltip {
-	border-bottom: 1px dotted $medium-gray;
+	border-bottom: 1px dotted $Muted-Vista-Blue;
 }
 
 
@@ -121,7 +121,7 @@ pre code.hljs {
 	top: 0;
 	left: 0;
 	right: 0;
-	background: $white;
+	background: $base-background-color;
 	z-index: 1;
 	/*
 	*	Navigation Menu - http://refills.bourbon.io/unstyled/ (see "Navigation")
@@ -230,7 +230,7 @@ pre code.hljs {
 	.post-meta {
 		@include outer-container;
 		// padding: 1em 0;
-		color: $medium-gray;
+		color: $Muted-Vista-Blue;
 		.post-date {
 			@include span-columns(6);
 			text-align: left;
@@ -246,7 +246,7 @@ pre code.hljs {
 	.pagination {
 		padding-top: 2em;
 		text-align: center;
-		color: $medium-gray;
+		color: $Muted-Vista-Blue;
 		.page-number {
 			padding: 0 1em;
 		}
@@ -255,7 +255,7 @@ pre code.hljs {
     }
 	}
 	.site-header-container {
-		color: $white;
+		color: $base-background-color;
 		text-shadow: 0 2px 1px rgba(0,0,0,0.33);
 		background-color: $highlight-color;
 		.site-header{
@@ -357,7 +357,7 @@ pre code.hljs {
 				font-size: 0.9em;
 			}
 			.post-date {
-				color: $medium-gray;
+				color: $Muted-Vista-Blue;
 			}
 		}
 		.profile {
@@ -372,10 +372,10 @@ pre code.hljs {
 *	Footer
 */
 .site-footer {
-	$link-color: $white;
+	$link-color: $base-background-color;
 	padding: 1em 1em 2em 1em;
 	background-color: $highlight-color;
-	color: $white;
+	color: $base-background-color;
 	a {
 	  color: $link-color;
 	  &:active,

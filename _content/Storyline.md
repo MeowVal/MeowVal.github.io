@@ -16,8 +16,8 @@ There has been some contriversy toward the work done by SBTi and yet, by having 
 
 Content
 1. [Context and climate change](#chapter-1)
-2. [Science-Based Target's in a nutshell](#capter-2)
-3. [SBTi in Denmark vs Europe vs Global](#capter-3)
+2. [Science-Based Target's in a nutshell](#chapter-2)
+3. [SBTi in Denmark vs Europe vs Global](#chapter-3)
 4. [SBTi in Denmark](#chapter-4)
 5. [Scrutiny toward SBTi
    Abbreviations and jargon](#chapter-5)

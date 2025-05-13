@@ -1,5 +1,5 @@
 ---
-title: Test
+title: ""
 layout: default
 ---
 
@@ -33,7 +33,7 @@ The problems that most companies have been facing the last years have been:
 - They didn't know how to reduce emissions of their operations
 - They didn't know how to set realistic, science-based targets and how to talk about them
 
-# This is where the Science-Based Target Initiative comes in (#capter-2)
+# This is where the Science-Based Target Initiative comes in {#chapter-2}
 Science-Based Target Initiative (SBTi) is an organization that allows companies and financial institutions to set and commit to emission reduction targets. The SBTi establishes and advocates for best practices in reducing emissions and setting net-zero targets, aligning with climate science.  The organization creates standards, tools, and guidance to help companies and financial institutions set science-based targets informed by the latest climate research and helps aligning these targets to the goals set by the Paris agreement. Additionally, SBTi Services evaluates and verifies targets set by businesses and financial institutions.
 
 The SBTi collects information about company's targets and making them available on their [website](https://sciencebasedtargets.org/) for transparency. The data used for this analysis has been collected from the SBTi website and is available in two formats:
@@ -76,7 +76,7 @@ The sectors that are least engaged with the SBTi are the pharmaceutical sector, 
 
 The SBTi is founded, funded and partnered in the right circumstances, offering support to businesses that makes business sense - [increasing brand reputation, giving investor confidence, making businesses resilient against regulations, increases innovation toward optimization, driving bottom line savings and giving competitive edge](https://sciencebasedtargets.org/blog/six-business-benefits-of-setting-science-based-targets). Given that this is correct one would assume that retracting targets would decrease brand reputation, reducing investor confidence and reduce competitive edge.
 
-## SBTi in Denmark vs Europe vs Global (#capter-3)
+## SBTi in Denmark vs Europe vs Global {#chapter-3}
 Now the growth of the SBTi has been established and the performance of Danish companies relative to domestic targets, but how does Denmark stand in comparison to other European and Global companies? In this section Denmark is benchmarked compared to other European and Global companies.
 
 Graphs:
@@ -85,7 +85,7 @@ Graphs:
 
 ...Discussions on the graphs...
 
-# SBTi in Denmark (#chapter-4)
+# SBTi in Denmark {#chapter-4}
 Danish companies started committing to the SBTi in 2017 with the first company being Carlsberg group which was quickly joined by Rockwool Group, The Velux Group and Vestas Wind Systems.
 
 Key statistics dashboard Denmark
@@ -133,7 +133,7 @@ According to the development of danish commitments, it can be prediced that ther
 
 The SBTi has a strong foundation in Denmark with a projected the rapid growth of commitments, an increased focus of Danish companies to engage with their supply chain will have a positive influence on goals of the Paris agreement.
 
-# SBTi scrutiny - Conclusion (#chapter-5)
+# SBTi scrutiny - Conclusion {#chapter-5}
 There are plenty of players that have been critical toward SBTi and for good reasons. The so called "science-based" methods of the target setting has been commented on, as well as their reliance on the GHG protocol and lack of resources when it comes to monitoring after companies have set their goals. Additionally, there was a controversy around the organisation when they published that they would be evaluating carbon offsetts as emission reduction in 2024, that was then retracted a few months later. Although, there are many flaws with the Science-Based Target initative, but in the current maturity of the climate industry and compared to the alternative of not having a business centered target commitment strategy, the SBTi has helped companies to structure their environmental committments all around the world.
 
 ## Future discussions

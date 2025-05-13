@@ -15,18 +15,6 @@
 				{% include nav_links.html %}
       </ul>
     </nav>
-		<script>
-			document.addEventListener("DOMContentLoaded", function() {
-				let sidebar = document.querySelector(".sidebar ul");
-				document.querySelectorAll("h2").forEach((heading) => {
-					let id = heading.innerText.toLowerCase().replace(/\s+/g, "-");
-					heading.id = id;
-					let link = document.createElement("li");
-					link.innerHTML = `<a href="#${id}">${heading.innerText}</a>`;
-					sidebar.appendChild(link);
-				});
-			});
-		</script>
 
   </div>
 </header>

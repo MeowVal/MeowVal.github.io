@@ -1,9 +1,18 @@
 {% for page in site.pages %}
 	{% if page.title and page.main_nav == true %}
 	<ul>
-		{% for chapter in site.chapters %}
-		<li><a href="{{ site.baseurl }}/storyline#{{ chapter.title | slugify }}">{{ chapter.title }}</a></li>
-		{% endfor %}
+		<script>
+			document.addEventListener("DOMContentLoaded", function() {
+				let sidebar = document.querySelector(".sidebar ul");
+				document.querySelectorAll("h2").forEach((heading) => {
+					let id = heading.innerText.toLowerCase().replace(/\s+/g, "-");
+					heading.id = id;
+					let link = document.createElement("li");
+					link.innerHTML = `<a href="#${id}">${heading.innerText}</a>`;
+					sidebar.appendChild(link);
+				});
+			});
+		</script>
 	</ul>
 	{% endif %}
 {% endfor %}

@@ -1,5 +1,9 @@
 {% for page in site.pages %}
 	{% if page.title and page.main_nav == true %}
-	<li class="nav-link"><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+	<ul>
+		{% for chapter in site.chapters %}
+		<li><a href="{{ site.baseurl }}/storyline#{{ chapter.title | slugify }}">{{ chapter.title }}</a></li>
+		{% endfor %}
+	</ul>
 	{% endif %}
 {% endfor %}

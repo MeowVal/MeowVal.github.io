@@ -28,6 +28,11 @@ markdown: kramdown
 inter_post_navigation: false
 highlightjs_theme: "monokai-sublime"
 
+---
+layout: default
+title: Storyline
+permalink: /storyline/
+---
 # Pagination Settings
 # https://github.com/sverrirs/jekyll-paginate-v2/blob/master/README-GENERATOR.md#site-configuration
 pagination:
@@ -49,6 +54,8 @@ jekyll-archives:
 
 collections:
   content:
+    output: true
+  chapters:
     output: true
 # Disqus comments
 # disqus_shortname: bencentra

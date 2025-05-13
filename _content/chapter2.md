@@ -1,3 +1,8 @@
+---
+title: Test
+layout: default
+---
+
 # Executive summary
 The Science-Based Target Initiative (SBTi) allows companies to set and commit to emission reduction targets. The companies and targets they set for themselves is made available online by the SBTi, and analysed on this website.
 

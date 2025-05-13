@@ -12,8 +12,18 @@ pagination:
       {% if site.subtitle %}<p class="subtitle">{{ site.subtitle }}</p>{% endif %}
     </header>
   </div>
-</div>
-
+	<script>
+		document.addEventListener("DOMContentLoaded", function() {
+			let sidebar = document.querySelector(".sidebar ul");
+			document.querySelectorAll("h2").forEach((heading) => {
+				let id = heading.innerText.toLowerCase().replace(/\s+/g, "-");
+				heading.id = id;
+				let link = document.createElement("li");
+				link.innerHTML = `<a href="#${id}">${heading.innerText}</a>`;
+				sidebar.appendChild(link);
+			});
+		});
+	</script>
 <div class="wrapper">
 	{% for item in site.content %}
 	<h2>{{ item.title }}</h2>

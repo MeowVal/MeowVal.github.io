@@ -220,6 +220,31 @@ pre code.hljs {
 		@include outer-container;
 		padding: 1em;
 	}
+	.sidebar {
+		position: fixed;
+		left: 10px;
+		top: 20px;
+		width: 250px;
+		background: $base-background-color;
+		padding: 15px;
+		border-radius: 5px;
+		box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+	}
+
+	.sidebar ul {
+		list-style: none;
+		padding: 0;
+	}
+
+	.sidebar ul li {
+		margin-bottom: 10px;
+	}
+
+	.sidebar ul li a {
+		text-decoration: none;
+		color: $Deep-Ocean;
+		font-weight: bold;
+	}
 	/*
 	*	index.html
 	*/

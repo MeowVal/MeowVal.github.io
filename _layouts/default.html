@@ -7,9 +7,30 @@
 
     {% include header.html %}
 
+		<div class="sidebar">
+			<h2>Contents</h2>
+			<ul>
+				<li><a href="#chapter-1">Chapter 1: The Beginning</a></li>
+				<li><a href="#chapter-2">Chapter 2: The Conflict</a></li>
+				<li><a href="#chapter-3">Chapter 3: The Resolution</a></li>
+			</ul>
+		</div>
+		<script>
+			document.addEventListener("DOMContentLoaded", function() {
+				let sidebar = document.querySelector(".sidebar ul");
+				document.querySelectorAll("h2").forEach((heading) => {
+					let id = heading.innerText.toLowerCase().replace(/\s+/g, "-");
+					heading.id = id;
+					let link = document.createElement("li");
+					link.innerHTML = `<a href="#${id}">${heading.innerText}</a>`;
+					sidebar.appendChild(link);
+				});
+			});
+		</script>
     <div class="page-content">
         {{ content }}
     </div>
+
 
     {% include footer.html %}
 
